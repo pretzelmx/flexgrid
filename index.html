@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="dist/flexgrid.css">
+    <style>
+    .grid-example {
+        background-color: #e67e22;
+        font-size: 1.5em;
+        /* font-family: sans-serif; */
+        /* font-weight: lighter; */
+        
+        text-align: center;
+        color: #fff;
+        padding: 5px 0;
+        margin: 5px 0;
+        border: 1px solid white;
+        border-radius: 5px;
+    }
+    
+    .green {
+        background-color: #1ABC9C;
+    }
+    
+    .red {
+        background-color: #E74C3C;
+    }
+    
+    .blue {
+        background-color: #34495E;
+    }
+    
+    .gray {
+        background-color: #7F8C8D;
+    }
+    
+    .clear {
+        background-color: #ECF0F1;
+        color: #bdc3c7;
+    }
+    </style>
+</head>
+
+<body>
+    <section class="container">
+        <div class="row">
+            <div class="col xs-12 sm-6 md-1 lg-4 grid-example">col xs12</div>
+            <div class="col xs-1 grid-example">col xs1</div>
+            <div class="col xs-11 grid-example">col xs11</div>
+            <div class="col xs-2 grid-example">col xs2</div>
+            <div class="col xs-10 grid-example">col xs10</div>
+            <div class="col xs-1 grid-example">col xs1</div>
+            <div class="col xs-1 grid-example">col xs1</div>
+            <div class="col xs-1 grid-example">col xs1</div>
+            <div class="col xs-1 grid-example">col xs1</div>
+            <div class="col xs-1 grid-example">col xs1</div>
+            <div class="col xs-1 grid-example">col xs1</div>
+            <div class="col xs-1 order-lg-0 grid-example red">col xs1</div>
+        </div>
+        <div class="row">
+            <div class="row col auto grid-example">
+                <div class="col auto grid-example blue">item</div>
+                <div class="col auto grid-example blue">item</div>
+                <div class="col auto grid-example blue">item</div>
+                <div class="col auto grid-example blue">item</div>
+            </div>
+            <div class="col auto grid-example">col auto</div>
+            <div class="col auto grid-example">col auto</div>
+            <div class="col auto grid-example">col auto</div>
+            <div class="col auto grid-example">col auto</div>
+            <div class="col auto grid-example">col auto</div>
+        </div>
+    </section>
+</body>
+
+</html>

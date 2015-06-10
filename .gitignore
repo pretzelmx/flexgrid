@@ -1,0 +1,4 @@
+node_modules/
+dist/*.map
+.sass-cache/
+.DS_Store

@@ -1,0 +1,21 @@
+{
+  "name": "flexgrid",
+  "version": "0.0.1",
+  "description": "Simple and lightweight grid system based on flexbox layout",
+  "main": "",
+  "scripts": {},
+  "keywords": [
+    "flexbox",
+    "grid",
+    "css3",
+    "sass"
+  ],
+  "author": "César Tolosa Franco",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-minify-css": "^1.1.6",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.0.1"
+  }
+}
