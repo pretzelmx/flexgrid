@@ -2,16 +2,24 @@
   "name": "flexgrid",
   "version": "0.0.1",
   "description": "Simple and lightweight grid system based on flexbox layout",
-  "main": "",
+  "main": "dist/flexgrid.min.css",
   "scripts": {},
+  "author": "PretzelMX <flexgrid@pretzel.mx>",
+  "contributors": "https://github.com/pretzelmx/flexgrid/graphs/contributors",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pretzelmx/flexgrid"
+  },
+  "bugs": {
+    "url": "https://github.com/pretzelmx/flexgrid/issues"
+  },
   "keywords": [
     "flexbox",
     "grid",
     "css3",
     "sass"
   ],
-  "author": "César Tolosa Franco",
-  "license": "MIT",
   "devDependencies": {
     "gulp": "^3.9.0",
     "gulp-minify-css": "^1.1.6",

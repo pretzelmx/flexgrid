@@ -14,10 +14,10 @@ gulp.task('flexgrid', function() {
     gulp.src('sass/flexgrid.scss')
         .pipe(sass())
         .on('error', swallowError)
-        .pipe(gulp.dest('./dist/'))
+        .pipe(gulp.dest('./dist/css/'))
         .pipe(cssmin())
         .pipe(rename('flexgrid.min.css'))
-        .pipe(gulp.dest('./dist/'));
+        .pipe(gulp.dest('./dist/css/'));
 });
 
 //Watch task
